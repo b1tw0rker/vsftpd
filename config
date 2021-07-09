@@ -1,0 +1,8 @@
+path=/etc/vsftpd.conf
+virtual=/etc/vsftpd/vsftpd_user_conf
+pam=/etc/pam.d/vsftpd
+mysqlhost=localhost
+mysqldb=
+mysqluser=
+mysqlpass=
+openssl=/usr/bin/openssl

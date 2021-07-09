@@ -1,0 +1,11 @@
+line0=Grundkonfiguration,11
+path=Pfad und Name zur vsftpd.conf,
+line1=Virtual MySQL Konfiguration (OPTIONAL),11
+virtual=Pfad und Ordner in dem Virtuelle Benutzer gespeichert werden.
+pam=Pfad zur PAM Datei fuer PAM Service. Normalerweise: /etc/pam.d/vsftpd
+mysqlhost=MySQL Hostname
+mysqldb=MySQL Datenbankname
+mysqluser=MySQL User
+mysqlpass=MySQL Passwort
+line2=SSL Konfiguration (OPTIONAL),11
+openssl=Openssl Programm

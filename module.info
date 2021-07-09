@@ -1,0 +1,5 @@
+name=Vsftpd
+desc=Vsftpd
+desc_de=Vsftpd
+category=servers
+depends=1.48

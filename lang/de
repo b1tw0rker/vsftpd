@@ -1,0 +1,71 @@
+lang=de
+author=nh
+index_title=vsftpd
+module_author=nh
+homepage=www.isp4you.com
+
+index_allgemein=Allgemein
+index_anonymous=Anonymous FTP
+index_user=Lokale Benutzer
+index_log=Log Infos
+index_home=Startseite
+index_misc=Verschiedenes
+index_virtual=Virtuelle MySQL Benutzer
+index_manual=Manual entries
+index_restart=Vsftpd Server neu starten
+index_start=Vsftpd Server starten
+index_stop=Vsftpd Server anhalten
+
+all_headline=Allgemeine Einstellungen
+all_unmask=File Unmask
+all_local_unmask=Local unmask
+all_idle=Idle session timeout
+all_data=Data connection timeout
+all_welcome=Welcome Banner Text
+all_username=FTP Username
+all_save=&Auml;nderungen speichern
+
+anon_headline=Anonymous Konfiguration
+anon_enable=Anonymous aktiviert:
+anon_yes=Ja
+anon_no=Nein
+anon_upload=Anonymous k&ouml;nnen Dateien hochladen:
+anon_make_dirs=Anonymous k&ouml;nnen Ordner erstellen:
+anon_save=&Auml;nderungen speichern
+
+
+local_headline=Local User Konfiguration
+local_enable=Local users aktivieren:
+local_chroot=Chroot Local User:
+local_write=Local User k&ouml;nnen schreiben:
+local_save=&Auml;nderungen speichern
+local_yes=Ja
+local_no=Nein
+
+log_headline=Logging Information
+log_format=Xfer Log Format:
+log_yes=Ja
+log_no=Nein
+log_file=Xfer Log File:
+log_save=&Auml;nderungen speichern
+
+virtual_description_1=Virtuelle User Unterst&uuml;tzung sind noch nicht auf dem System aktiviert. Soll Virtual User jetzt aktiviert werden ?<br>Es werden die folgenden Zeilen in Ihre vsftpd.conf Datei geschrieben:<br><br>
+virtual_description_2=Weiterhin wird der lokale benutzer vsftpd auf Ihrem System angelegt
+virtual_description_3=Virtual User Support jetzt aktivieren
+virtual_description_4=Konnte die PAM Datei nicht finden. Bitte kontrolieren Sie die
+virtual_description_5=Die Tabellen existieren noch nicht - JETZT die Tabellen anlegen ? 
+virtual_description_6=JA
+virtual_description_7=PAM vsftpd ist nicht korrekt konfiguiert.
+virtual_description_8=Soll die Datei /etc/pam.d/vsftpd jetzt angepasst werden ?
+virtual_description_9=Es wird eine Kopie der vorhandenen vsftpd Datei erstellt.
+virtual_description_10=Anschliessend werden die folgenden 2 Zeilen zugefuegt:
+virtual_description_11=Es wird das Modul pam_mysql benoetigt
+virtual_description_12=Auf einem FEDORA oder CENT-OS System installieren Sie es mit dem Befehl: yum install pam_mysql
+virtual_description_13=Auf Debian und Ubuntu mit: apt-get install libpam-mysql
+
+
+manual_headline=Konfig Datei vsftpd.conf
+manual_save=speichern
+
+
+misc_headline=Erweiterte Einstellungen

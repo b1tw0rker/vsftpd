@@ -1,0 +1,33 @@
+LogFile /var/log/vsftpd.log
+OutputDir /root/webmin-1.500/vsftpd/webalizer
+Hostname FTP-TRAFFIC
+HistoryName /root/webmin-1.500/vsftpd/webalizer/webalizer.hist
+Incremental yes
+IncrementalName /root/webmin-1.500/vsftpd/webalizer/webalizer.current
+FoldSeqErr yes
+ReallyQuiet yes
+
+LogType ftp
+ReportTitle FTP Stats
+HourlyGraph no
+HourlyStats no
+TimeMe yes
+
+GraphLegend no
+CountryGraph no
+DailyGraph no
+DailyStats no
+PageType htm*
+PageType php
+
+TopAgents 0
+TopSearch 0
+TopReferrers 0
+TopSites 0
+TopKSites no
+TopCountries 0
+TopURLs 0
+TopKURLs 0
+
+TopUsers 3000
+AllUsers yes

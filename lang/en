@@ -1,0 +1,75 @@
+lang=en
+author=nh
+module_author=nh
+index_title=vsftpd
+homepage=www.isp4you.com
+
+
+index_allgemein=Generally
+index_anonymous=Anonymous FTP
+index_user=Local User
+index_log=Log Infos
+index_home=Homepage
+index_misc=Miscellaneous
+index_virtual=Virtual MySQL User
+index_manual=Manual entries
+index_restart=Restart Vsftpd Server
+index_start=Start Vsftpd Server
+index_stop=Stop Vsftpd Server
+
+
+all_headline=Generally Attitudes
+all_unmask=File Unmask
+all_local_unmask=Local unmask
+all_idle=Idle session timeout (sec.)
+all_data=Data connection timeout (sec.)
+all_welcome=Welcome banner text
+all_username=FTP username
+all_save=save changes
+
+
+anon_headline=Anonymous Configuration
+anon_enable=Anonymous enable:
+anon_yes=Yes
+anon_no=No
+anon_upload=Anonymous can upload:
+anon_make_dirs=Anonymous can make Dirs:
+anon_save=save changes
+
+local_headline=Local User Configuration
+local_enable=Enable local users:
+local_chroot=Chroot Local users:
+local_write=Local users can write:
+local_save=save changes
+local_yes=Yes
+local_no=No
+
+
+log_headline=Logging Information
+log_format=Log in Xfer log format:
+log_yes=Yes
+log_no=No
+log_file=Xfer logfile:
+log_save=save changes
+
+virtual_description_1=Virtual User not supported on this system. Activate Virtual User Support now ?<br>The following lines will be added to your vsftpd.conf file:<br><br>
+virtual_description_2=And the local user vsftpd will be added tou your system
+virtual_description_3=Activate Virtual User Support now
+virtual_description_4=Could not find the PAM File. Please check your
+virtual_description_5=The tables does not exist either- CREATE the tables now ? 
+virtual_description_6=YES
+virtual_description_7=PAM vsftpd is not configured corectly.
+virtual_description_8=Modify the file /etc/pam.d/vsftpd now ?
+virtual_description_9=A copy of the present conffile vsftpd will be created.
+virtual_description_10=After this, the following two lines will be added:
+virtual_description_11=The module pam_mysql will be required
+virtual_description_12=On a FEDORA or CENTS OS System install it with the command: yum install pam_mysql
+virtual_description_13=On Debian or Ubuntu use: apt-get install libpam-mysql
+
+
+manual_headline=Config File vsftpd.conf
+manual_save=save
+
+
+misc_headline=Miscellaneous Settings
+
